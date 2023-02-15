@@ -1,0 +1,136 @@
+@charset "UTF 8";
+@font-face {
+    font-family: 'Netflix';
+    src: url('/fonte/NetflixSans-Regular.otf') format('opentype');
+    color: white;
+}
+:root {
+    --cor0: #E50914;
+    --cor1: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Netflix', Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    height: 70px;
+}
+header > div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;    
+}
+header p{
+    margin: 25px 25px 15px 0px;
+
+}
+#p-planos{
+    color: black;
+}
+#p-novo{
+    background-color: var(--cor0);
+    font-weight: bolder;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 3em;
+    font-size: 1em;
+}
+b{
+    color: black;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+p > a{
+    text-decoration: none;
+    color: #3F94F0;
+    font-weight: bold;
+}
+#sombra{
+    background-color: #000000c2;
+    height: 100%;
+    width: 100%;
+}
+#login{
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+    height: 700px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+div > img {
+    width: 200px;
+    padding: 30px 0px 0px 50px;
+}
+#idiomaEBotao{
+    padding: 30px 80px 0px 0px;
+}
+#idiomaEBotao > select{
+    border-radius: solid 1px white;
+    background-color: transparent;
+    padding: 5px;
+    margin-right: 20px;
+}
+.idiomaEBotao{
+    font-size: .9em;
+    color: white;
+}
+#idiomaEBotao > button{
+    background-color: var(--cor0);
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.idiomaEBotao:hover{
+    cursor: pointer;
+}
+#container-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.txt{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#txt-input > #txt-grande{
+    font-size: 4em;
+}
+#txt-input > #txt-medio{
+    font-size: 1.8em;
+    font-weight: 200;
+}
+#txt-input > #txt-pq{
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-top: 40px;
+}
+#input{
+    width: 700px;
+   display: flex;
+   margin: auto;
+
+}
+div > input{
+    padding-left: 10px;
+    font-size: 1em;
+    width: 550px;
+    height: 60px;
+}
+#input > button{
+    background-color: var(--cor0);
+    border: none;
+    font-size: 2em;
+    padding: 3px 10px;
+    width: 200px;
+    height: 64px;
+}
+#onde-assistir{
+    background-color: #000000;
+}
