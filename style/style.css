@@ -134,3 +134,27 @@ div > input{
 #onde-assistir{
     background-color: #000000;
 }
+#onde-assistir{
+    height: 600px;
+    border-top: solid 10px #222222;
+    border-bottom: solid 10px #222222;
+}
+#onde-assistir > aside{
+    display: flex;
+    width: 600px;
+    margin: auto;
+}
+#txt-sessao-2{
+    width: 600px;
+    margin: 0;
+}
+#txt-sessao-2 > h1{
+    font-size: 4.5em;
+}
+#txt-sessao-2 > p{
+    font-size: 2em;
+    
+}
+#tv{
+    width: 600px;
+}
